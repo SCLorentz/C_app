@@ -1,0 +1,23 @@
+@font-face { /*não está funcionando*/
+  font-family: "Roboto";
+  src: url(./assets/font/Roboto-Regular.ttf) format('woff');
+}
+
+button {
+  border-radius: 1rem;
+  background-color: #3C1D3D;
+  background-image: url("./icon.png");
+  background-size: contain;
+  font-size: 20px;
+  border: 1px solid white;
+  font-family: "Roboto";
+  color: red;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+box {
+  background-color: #f2ff2f;
+}
