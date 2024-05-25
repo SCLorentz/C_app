@@ -1,8 +1,3 @@
-@font-face { /*não está funcionando*/
-  font-family: "Roboto";
-  src: url(./assets/font/Roboto-Regular.ttf) format('woff');
-}
-
 button {
   border-radius: 1rem;
   background-color: #3C1D3D;

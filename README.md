@@ -1,2 +1,11 @@
 # C_app
-eu deveria voltar a mexer nisso, já fazem algumas semanas que eu não abro esse projeto...
+
+Assistente fornecido por You.com" ou "Assistente alimentado por um modelo de linguagem de IA da You.com
+
+‎- gostaria de agrad‎eçe‎‎r ao you, pois estou com dificuldades de entender o funcionamento do GTK e passando por diversos problemas, essa AI está me ajudando a treinar no desenvolvimento de apps usando o GTK.
+
+executar:
+
+```
+gcc -o nome_do_executavel arquivo.c `pkg-config --cflags --libs gtk+-3.0`
+```
