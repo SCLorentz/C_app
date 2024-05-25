@@ -7,5 +7,5 @@ Assistente fornecido por You.com" ou "Assistente alimentado por um modelo de lin
 executar:
 
 ```
-gcc -o nome_do_executavel arquivo.c `pkg-config --cflags --libs gtk+-3.0`
+gcc -o app main2.c `pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0`
 ```
