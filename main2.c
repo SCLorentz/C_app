@@ -79,7 +79,7 @@ int main(int argc, char *argv[]) {
     gtk_box_pack_start(GTK_BOX(cbtn), button3, FALSE, FALSE, 0);
 
     // Criar um layout para a janela
-    GtkWidget *layout = gtk_box_new(GTK_ORIENTATION_VERTICAL, 5);
+    GtkWidget *layout = gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
     // Definir a expansão vertical e horizontal do elemento WebView
     gtk_widget_set_vexpand(GTK_WIDGET(webView), TRUE);
     gtk_widget_set_hexpand(GTK_WIDGET(webView), TRUE);
