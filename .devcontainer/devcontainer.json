@@ -1,0 +1,27 @@
+{
+    "name": "capp",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    //"image": "Dockerfile",
+    "runArgs": [
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined"
+    ],
+    //
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "seepine.md-editor",
+                "fill-labs.dependi",
+                "mhutchie.git-graph",
+                "oderwat.indent-rainbow",
+                "PKief.material-icon-theme",
+                "supermaven.supermaven",
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    }
+}
